@@ -9,6 +9,13 @@ gulp.task('svgSpriteBuild', () => {
 				pretty: true
 			}
 		}))
-		.pipe(svgSprite())
-		.pipe(gulp.dest('./dist/assets/'));
+		.pipe(svgSprite({
+			mode: "symbols",
+			preview: false,
+			selector: "icon-%f",
+			svg: {
+				symbols: 'symbol_sprite.html'
+			}
+		}))
+		.pipe(gulp.dest('./'));
 });
