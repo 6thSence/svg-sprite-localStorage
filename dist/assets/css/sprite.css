@@ -1,0 +1,89 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 13.6454em 146.2em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+.icon.bull:before {
+    background-position: 0em 0em;
+    width: 12.5397em;
+    height: 12.5397em;
+}
+
+.icon.chick:before {
+    background-position: 0em -12.6em;
+    width: 11.5572em;
+    height: 11.5572em;
+}
+
+.icon.crab:before {
+    background-position: 0em -24.2em;
+    width: 13.6394em;
+    height: 13.6394em;
+}
+
+.icon.fox:before {
+    background-position: 0em -37.9em;
+    width: 12.1101em;
+    height: 12.1101em;
+}
+
+.icon.hedgehog:before {
+    background-position: 0em -50.1em;
+    width: 12.156600000000001em;
+    height: 12.156600000000001em;
+}
+
+.icon.hippopotamus:before {
+    background-position: 0em -62.3em;
+    width: 11.5277em;
+    height: 11.5277em;
+}
+
+.icon.koala:before {
+    background-position: 0em -73.9em;
+    width: 12.1021em;
+    height: 12.1021em;
+}
+
+.icon.lemur:before {
+    background-position: 0em -86.1em;
+    width: 11.4358em;
+    height: 11.4358em;
+}
+
+.icon.pig:before {
+    background-position: 0em -97.6em;
+    width: 11.0927em;
+    height: 11.0927em;
+}
+
+.icon.tiger:before {
+    background-position: 0em -108.7em;
+    width: 11.6667em;
+    height: 11.6667em;
+}
+
+.icon.whale:before {
+    background-position: 0em -120.4em;
+    width: 13.6454em;
+    height: 13.6454em;
+}
+
+.icon.zebra:before {
+    background-position: 0em -134.1em;
+    width: 12.030100000000001em;
+    height: 12.030100000000001em;
+}
+
