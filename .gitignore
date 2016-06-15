@@ -1,6 +1,6 @@
 .idea/
 node_modules/
-dist
+dest
 symbol_sprite.html
 css/
 svg/

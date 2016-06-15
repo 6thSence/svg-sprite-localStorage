@@ -1,3 +1,5 @@
-.icon-bull path {
-    fill: black;
+#icon-bull {
+    fill: violet;
+    stroke: purple;
+    stroke-width: 6;
     }
